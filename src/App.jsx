@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import './App.css';
 const App = () => {
+  //this is Bmi calculator
   const [height,setheight] = useState(180);
   const [weight,setweight] = useState(70);
   const handleweightChange = (e) =>{
