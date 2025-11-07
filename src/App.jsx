@@ -16,7 +16,7 @@ const App = () => {
   },[weight,height])
   return (
     <div className='main'>
-        <h1>BMI Calculator</h1>
+        <h1>BMI Calculator - VJ</h1>
         <div className='input-section'>
           <p className='slider-output'>Weight:{weight}kg</p>
           <input className='input-slider' type="range" step="1" min="40" max="200" onChange={handleweightChange}/>
